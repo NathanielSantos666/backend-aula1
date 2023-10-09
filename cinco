@@ -1,0 +1,33 @@
+function main() {
+    let num1 = 15;
+    let num2 = 20;
+    let num3 = 10;
+
+    let resultadoAdd = adicao(num1, num2, num3);
+    let resultadoSub = subtracao(num1, num2, num3);
+    let resultadoMulti = multiplicacao(num1, num2, num3);
+    let resultadoDivisao = divisao(num1, num2, num3);
+    
+    console.log('Resultado da adição: ', resultadoAdd);
+    console.log('Resultado da subtração: ', resultadoSub);
+    console.log('Resultado da multiplicação: ', resultadoMulti);
+    console.log('Resultado da divisão: ', resultadoDivisao);
+}
+
+function adicao(numero1, numero2, numero3) {
+    return numero1 + numero2 + numero3
+}
+
+function subtracao(numero1, numero2, numero3) {
+    return numero1 - numero2 - numero3
+}
+
+function multiplicacao(numero1, numero2, numero3) {
+    return numero1 * numero2 * numero3
+}
+
+function divisao(numero1, numero2, numero3) {
+    return numero1 / numero2 / numero3
+}
+
+main();
